@@ -31,7 +31,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "ᴅᴀᴛᴀʙᴀꜱᴇ")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "3"))
-JOIN_REQUEST_ENABLE = os.environ.get("JOIN_REQUEST_ENABLED", -1003796709628,-1004397225185,-1003886671994)
+JOIN_REQUEST_ENABLE = os.environ.get("JOIN_REQUEST_ENABLED", -1003796709628 -1004397225185)
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 

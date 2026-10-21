@@ -3,8 +3,8 @@
 import pymongo, os
 from config import DB_URI, DB_NAME
 
-dbclient = pymongo.MongoClient(DB_URI)
-database = dbclient[DB_NAME]
+dbclient = pymongo.MongoClient(mongodb+srv://Vishnuabhyantha_db:Baadshah@cluster0.fuxtgqk.mongodb.net/?appName=Cluster0)
+database = dbclient[Cluster0]
 user_data = database['users']
 
 async def present_user(user_id : int):
